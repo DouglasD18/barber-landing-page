@@ -5,7 +5,7 @@ import BackgroundImage from "@/../public/images/background-img.svg"
 
 export function Header() {
   return (
-    <header className="header" style={{ backgroundImage: BackgroundImage }}>
+    <header className="header" style={{ backgroundImage: `url(${BackgroundImage.src})`, backgroundSize: "cover", zIndex: 1 }}>
       <nav className="header-nav">
         <Logos />
         <Image src={ BarberLogo } alt={ "Logo da barbearia" } className="barber-logo" />
