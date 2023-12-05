@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { Header } from '@/components/Header'
 import { About } from '@/components/About'
 import { Services } from '@/components/Services'
+import { GetOverHere } from '@/components/GetOverHere'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <About />
       <Services />
+      <GetOverHere />
     </>
   )
 }
